@@ -112,17 +112,29 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Documentation</Link>
+                      <Link to="#top" onClick={closeMenu}>About us</Link>
+                    </li>
+                    <li>
+                      <Link to="#0" onClick={closeMenu}>Meet the Team</Link>
+                    </li>
+                    <li>
+                      <Link to="#robotics" onClick={closeMenu}>Robotics</Link>
+                    </li>
+                    <li>
+                      <Link to="#0" onClick={closeMenu}>Sponsors</Link>
+                    </li>
+                    <li>
+                      <Link to="#0" onClick={closeMenu}>Contact</Link>
                     </li>
                   </ul>
-                  {!hideSignin &&
+                  {/* {!hideSignin &&
                     <ul
                       className="list-reset header-nav-right"
                     >
                       <li>
                         <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Sign up</Link>
                       </li>
-                    </ul>}
+                    </ul>} */}
                 </div>
               </nav>
             </>}

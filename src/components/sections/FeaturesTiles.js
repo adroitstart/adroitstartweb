@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
+// import {useState} from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
-import Modal from '../elements/Modal';
+// import Modal from '../elements/Modal';
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -23,17 +24,17 @@ const FeaturesTiles = ({
   pushLeft,
   ...props
 }) => {
-  const [videoModalActive, setVideomodalactive] = useState(false);
+  // const [videoModalActive, setVideomodalactive] = useState(false);
 
-  const openModal = (e) => {
-    e.preventDefault();
-    setVideomodalactive(true);
-  }
+  // const openModal = (e) => {
+  //   e.preventDefault();
+  //   setVideomodalactive(true);
+  // }
 
-  const closeModal = (e) => {
-    e.preventDefault();
-    setVideomodalactive(false);
-  }  
+  // const closeModal = (e) => {
+  //   e.preventDefault();
+  //   setVideomodalactive(false);
+  // }  
 
   const outerClasses = classNames(
     'features-tiles section',

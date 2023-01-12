@@ -18,7 +18,7 @@ const FooterSocial = ({
     >
       <ul className="list-reset">
         <li>
-          <a href="https://facebook.com/">
+          <a href="https://m.facebook.com/pages/category/Science--Technology---Engineering/Pioneers-FIRST-Robotics-171138200433306/">
             <svg
               width="16"
               height="16"
@@ -31,7 +31,7 @@ const FooterSocial = ({
           </a>
         </li>
         <li>
-          <a href="https://twitter.com/">
+          <a href="https://mobile.twitter.com/pioneers7525">
             <svg
               width="16"
               height="16"
@@ -44,7 +44,7 @@ const FooterSocial = ({
           </a>
         </li>
         <li>
-          <a href="https://google.com/">
+          <a href="https://instagram.com/pioneers7525?utm_medium=copy_link">
             <svg
               width="16"
               height="16"

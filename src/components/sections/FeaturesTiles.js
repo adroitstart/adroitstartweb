@@ -87,7 +87,7 @@ const FeaturesTiles = ({
                     Mechanical
                     </h4>
                   <p className="m-0 text-sm">
-                  Fostering technical and vocational skills amongst students
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
                     </p>
                 </div>
               </div>
@@ -142,30 +142,8 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   {/* <div className="features-tiles-item-image mb-16"> */}
                     <Image
-                      src={require('./../../assets/images/beaker.png')}
+                      src={require('./../../assets/images/briefcase.png')}
                       alt="Features tile icon 04"
-                      width={64}
-                      height={64} />
-                  {/* </div> */}
-                </div>
-                <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
-                    Marketing
-                    </h4>
-                  <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
-              <div className="tiles-item-inner">
-                <div className="features-tiles-item-header">
-                  {/* <div className="features-tiles-item-image mb-16"> */}
-                    <Image
-                      src={require('./../../assets/images/beaker.png')}
-                      alt="Features tile icon 05"
                       width={64}
                       height={64} />
                   {/* </div> */}
@@ -181,12 +159,35 @@ const FeaturesTiles = ({
               </div>
             </div>
 
+            {/* <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                   { <div className="features-tiles-item-image mb-16"> }
+                    <Image
+                      src={require('./../../assets/images/beaker.png')}
+                      alt="Features tile icon 05"
+                      width={64}
+                      height={64} />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">
+                    Business
+                    </h4>
+                  <p className="m-0 text-sm">
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    </p>
+                </div>
+              </div>
+            </div> */
+            }
+
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   {/* <div className="features-tiles-item-image mb-16"> */}
                     <Image
-                      src={require('./../../assets/images/beaker.png')}
+                      src={require('./../../assets/images/hardhat.png')}
                       alt="Features tile icon 06"
                       width={64}
                       height={64} />

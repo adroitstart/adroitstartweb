@@ -22,6 +22,7 @@ const Footer = ({
   ...props
 }) => {
 
+  const currentYear = new Date().getFullYear();
   const classes = classNames(
     'site-footer center-content-mobile',
     topOuterDivider && 'has-top-divider',
@@ -45,7 +46,7 @@ const Footer = ({
           </div>
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
             <FooterNav />
-            <div className="footer-copyright">Copyright ADROIT 2023. All right reserved</div>
+            <div className="footer-copyright">&copy; Copyright {currentYear}, ADROIT. All right reserved.</div>
           </div>
         </div>
       </div>

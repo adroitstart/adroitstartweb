@@ -1,10 +1,8 @@
 import React from 'react';
-// import {useState} from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
-// import Modal from '../elements/Modal';
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -24,17 +22,6 @@ const FeaturesTiles = ({
   pushLeft,
   ...props
 }) => {
-  // const [videoModalActive, setVideomodalactive] = useState(false);
-
-  // const openModal = (e) => {
-  //   e.preventDefault();
-  //   setVideomodalactive(true);
-  // }
-
-  // const closeModal = (e) => {
-  //   e.preventDefault();
-  //   setVideomodalactive(false);
-  // }  
 
   const outerClasses = classNames(
     'features-tiles section',
@@ -57,7 +44,7 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Robotics',
+    title: 'FIRST Robotics',
     paragraph: ''
   };
 
@@ -69,8 +56,45 @@ const FeaturesTiles = ({
       <div className="container">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
-          <div className={tilesClasses}>
+          <div className="center-content">
+            <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400"> 
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+            </p>
+          </div>
 
+          {/* What is FIRST? */}
+          <div className="WhatIsFirst">
+            {/* Text, left-aligned */}
+            <div className="splitDivChild" style={{ width:"48%", float:"left", height: "400px" }}>
+              <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200" style={{textAslign:"center"}}>
+                What is FIRST?
+              </h1>
+              <div className="desc">
+                <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400" style={{textAslign:"left", textIndent: "50px"}} > 
+                FIRST® was founded in 1989 by Dean Kamen to inspire young people to pursue education and career opportunities in STEM. Each year, FIRST® Robotics teams, along with the guidance of adult mentors, have six weeks from the first Saturday in January to design, build, and program a robot that is capable of playing a sports-based game. Additionally, aside from its STEM components, students are expected to develop service projects, locate community stakeholders, create a well-defined business plan, market the team, and develop a sustainable program.
+                </p>
+              </div>
+            </div>
+
+            <div className="splitDivChild" style={{ width:"2%", float:"left", height: "450px" }}>
+
+            </div>
+
+            {/* Video, right-aligned */}
+            <div className="splitDivChild" style={{ width:"48%", float:"right", height: "450px"}}>
+              <div style={{height:"75px"}}></div>
+              {/* Video div */}
+              <iframe width="550" height="315" src="https://www.youtube.com/embed/i1QyM9WTF18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+          </div>
+
+          <div className="center-content">
+            <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400"> 
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+            </p>
+          </div>
+
+          <div className={tilesClasses}>
             <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
@@ -128,7 +152,7 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Programming
+                    Coding
                     </h4>
                   <p className="m-0 text-sm">
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
@@ -205,29 +229,12 @@ const FeaturesTiles = ({
             </div>
 
           </div>
+          <div style={{height:"25px"}}></div>
+          <div className="center-content">
+            <iframe width="760" height="415" src="https://www.youtube.com/embed/DasJsXyBh6A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
         </div>
       </div>
-      {/* <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
-            <a
-              data-video="https://www.youtube.com/watch?v=DasJsXyBh6A&t=63s&ab_channel=ThePioneers"
-              href="#0"
-              aria-controls="video-modal"
-              onClick={openModal}
-            >
-              <Image
-                className="has-shadow"
-                src={require('./../../assets/images/robot.jpg')}
-                alt="Hero"
-                width={896}
-                height={504} />
-            </a>
-          </div>
-          <Modal
-            id="video-modal"
-            show={videoModalActive}
-            handleClose={closeModal}
-            video="https://www.youtube.com/watch?v=DasJsXyBh6A&t=63s&ab_channel=ThePioneers"
-            videoTag="iframe" /> */}
     </section>
   );
 }

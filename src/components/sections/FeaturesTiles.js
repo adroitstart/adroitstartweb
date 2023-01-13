@@ -53,9 +53,6 @@ const FeaturesTiles = ({
           <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
 
           <div className="center-content">
-            <div style = {{height: "75px"}}>
-
-            </div>
             <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400"> 
               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
             </p>

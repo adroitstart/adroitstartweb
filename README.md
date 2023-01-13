@@ -1,7 +1,6 @@
+# ADROIT Main Page
 [![Azure Static Web Apps CI/CD](https://github.com/adroitadmin/adroitstartweb/actions/workflows/azure-static-web-apps-ashy-moss-092380610.yml/badge.svg)](https://github.com/adroitadmin/adroitstartweb/actions/workflows/azure-static-web-apps-ashy-moss-092380610.yml)
 
-
-# ADROIT Main Page
 This is the main website for ADROIT, a non-profit organization.
 
 ## Live site

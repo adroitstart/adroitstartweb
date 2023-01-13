@@ -164,7 +164,7 @@ const FeaturesTiles = ({
           </div>
 
           <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800" style={{textAlign: "center"}}>
-            <iframe style={{margin:"auto"}} width="560" height="315" src="https://www.youtube.com/embed/DasJsXyBh6A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe style={{margin:"auto"}} width="100%" height="500" src="https://www.youtube.com/embed/DasJsXyBh6A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
         </div>
       </div>

@@ -1,3 +1,6 @@
+# Adapted from free template - see below
+
+
 # Free React landing page template
 
 ![Open React template preview](https://user-images.githubusercontent.com/2683512/217847405-a7941b8f-45e9-4ed0-8793-03f793f45db1.png)

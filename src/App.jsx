@@ -10,7 +10,8 @@ import './css/style.css';
 
 import AOS from 'aos';
 
-import Home from './pages/Home';
+// import Home from './pages/Home';
+import UnderConstruction from './pages/UnderConstruction';
 
 function App() {
 
@@ -34,7 +35,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route exact path="/" element={<Home />} />
+        <Route exact path="/" element={<UnderConstruction />} />
       </Routes>
     </>
   );

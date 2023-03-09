@@ -10,7 +10,7 @@ import './css/style.css';
 
 import AOS from 'aos';
 
-import Home from './pages/Home';
+// import Home from './pages/Home';
 import UnderConstruction from './pages/UnderConstruction';
 
 function App() {

@@ -1,17 +1,7 @@
 import React from 'react';
 
-import Header from '../partials/Header';
 import PageIllustration from '../partials/PageIllustration';
-import HeroHome from '../partials/HeroHome';
-import FeaturesBlocks from '../partials/FeaturesBlocks';
-import FeaturesZigZag from '../partials/FeaturesZigzag';
-import Testimonials from '../partials/Testimonials';
-import Newsletter from '../partials/Newsletter';
-import Footer from '../partials/Footer';
 import Robot from '../images/robot.jpg'
-import FeatImage01 from '../images/features-03-image-01.png';
-import FeatImage02 from '../images/features-03-image-02.png';
-import FeatImage03 from '../images/features-03-image-03.png';
 
 function UnderConstruction() {
   return (

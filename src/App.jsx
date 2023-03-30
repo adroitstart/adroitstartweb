@@ -11,7 +11,10 @@ import './css/style.css';
 import AOS from 'aos';
 
 // import Home from './pages/Home';
-import UnderConstruction from './pages/UnderConstruction';
+// import UnderConstruction from './pages/UnderConstruction';
+// import LandingPage from './pages/LandingPage';
+import HomePage from './pages/HomePage';
+import favicon from './images/Favicon_v1.png'
 
 function App() {
 
@@ -34,8 +37,11 @@ function App() {
 
   return (
     <>
+      <head>
+        <link rel="icon" type="image/png" href={favicon} />
+      </head>
       <Routes>
-        <Route exact path="/" element={<UnderConstruction />} />
+        <Route exact path="/" element={<HomePage />} />
       </Routes>
     </>
   );

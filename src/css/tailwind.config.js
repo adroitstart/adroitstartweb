@@ -28,6 +28,8 @@ module.exports = {
           800: '#38379C',
           900: '#262668',
         },
+        adroitBlue: '#64ABD6',
+        adroitOrange: '#F3B636',
       },
       spacing: {
         '9/16': '56.25%',
@@ -71,5 +73,12 @@ module.exports = {
   },
   plugins: [
     require('@tailwindcss/forms'),
+    function ({ addUtilities }) {
+      addUtilities({
+        '.scroll-smooth': {
+          'scroll-behavior': 'smooth',
+        },
+      }, ['responsive', 'hover']);
+    },
   ],
 };

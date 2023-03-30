@@ -1,14 +1,10 @@
 import { useState, useEffect } from 'react';
 // import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
-import slide1 from '../images/slide-1.jpg'
 import slide4 from '../images/slide-4.jpg'
-import slide5 from '../images/slide-5.jpg'
 import slide7 from '../images/slide-7.jpg'
 
 const images = [
-  slide1,
   slide4,
-  slide5,
   slide7,
 ];
 

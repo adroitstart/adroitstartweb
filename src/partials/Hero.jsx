@@ -2,8 +2,10 @@ import { useState, useEffect } from 'react';
 // import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import slide4 from '../images/slide-4.jpg'
 import slide7 from '../images/slide-7.jpg'
+import slide1 from '../images/slide-1.jpg'
 
 const images = [
+  slide1,
   slide4,
   slide7,
 ];

@@ -4,7 +4,6 @@ import Hero from '../partials/Hero'
 import AboutUs from '../partials/AboutUs'
 import MeetUs from '../partials/MeetUs'
 import Footer from '../partials/Footer'
-// import GetInvolved from './MailchimpSubscribeForm'
 function HomePage() {
   return (
     <div>
@@ -19,7 +18,6 @@ function HomePage() {
           <MeetUs/>
         </div>
         {/* Newsletter / Get involved info */}
-        {/* <GetInvolved/> */}
         <Footer/>
     </div>
   );

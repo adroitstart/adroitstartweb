@@ -1,3 +1,5 @@
+[![Azure Static Web Apps CI/CD](https://github.com/adroitstart/adroitstartweb/actions/workflows/azure-static-web-apps-ashy-moss-092380610.yml/badge.svg)](https://github.com/adroitstart/adroitstartweb/actions/workflows/azure-static-web-apps-ashy-moss-092380610.yml)
+
 ## Usage
 
 This project was bootstrapped with [Vite](https://vitejs.dev/).

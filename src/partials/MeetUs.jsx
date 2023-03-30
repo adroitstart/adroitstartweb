@@ -17,7 +17,7 @@ const MeetUs = () => {
       title: 'Secretary',
       bio:
         '',
-      imgSrc: "chris.jpg",
+      imgSrc: "/chris.jpg",
       linkedin: 'https://www.linkedin.com/in/chris-masuo-765330a2/',
       twitter: '#',
       email: 'bWFzdW9jakBnbWFpbC5jb20='

@@ -17,7 +17,7 @@ const MeetUs = () => {
       title: 'Secretary',
       bio:
         '',
-      imgSrc: "https://pwco.com.sg/wp-content/uploads/2020/05/Generic-Profile-Placeholder-v3-1024x1024.png",
+      imgSrc: "chris.jpg",
       linkedin: 'https://www.linkedin.com/in/chris-masuo-765330a2/',
       twitter: '#',
       email: 'bWFzdW9jakBnbWFpbC5jb20='

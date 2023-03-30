@@ -29,7 +29,6 @@ const Header = () => {
               aria-expanded="false"
             >
               <span className="sr-only">Open menu</span>
-              {/* Hamburger Icon */}
               <svg
                 className="h-6 w-6"
                 xmlns="http://www.w3.org/2000/svg"

@@ -13,7 +13,7 @@ const Header = () => {
   }
 
   return (
-    <header className="bg-white fixed w-full z-30">
+    <section className="bg-white fixed w-full z-30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex items-center py-2 md:justify-start md:space-x-10">
           <div className="lg:w-0 lg:flex-1">
@@ -83,7 +83,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </header>
+    </section>
   );
 };
 

@@ -1,4 +1,5 @@
 import { FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa';
+import chris from '../images/chris.jpg'
 
 const MeetUs = () => {
   const members = [
@@ -17,7 +18,7 @@ const MeetUs = () => {
       title: 'Secretary',
       bio:
         '',
-      imgSrc: "/chris.jpg",
+      imgSrc: chris,
       linkedin: 'https://www.linkedin.com/in/chris-masuo-765330a2/',
       twitter: '#',
       email: 'bWFzdW9jakBnbWFpbC5jb20='

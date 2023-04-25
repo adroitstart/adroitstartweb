@@ -1,17 +1,10 @@
-import React from "react";
-// import { FaDonate } from "react-icons/fa";
-import Logo from "../images/Adroit_Logo_Blue-smaller.png"
+import { decodeEmail } from "../utils";
 
+const  Logo = "images/Adroit_Logo_Blue-smaller.png"
 
 const Header = () => {
   const benEmail = "YmVubmFkb2xza3lAYWRyb2l0c3RhcnQub3Jn"
-
-  function decodeEmail(encodedEmail) {
-    const decoder = new TextDecoder("utf-8");
-    const decodedEmail = decoder.decode(Uint8Array.from(atob(encodedEmail), c => c.charCodeAt(0)));
-    return decodedEmail;
-  }
-
+  
   return (
     <section className="bg-white fixed w-full z-30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">

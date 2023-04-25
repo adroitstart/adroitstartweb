@@ -6,7 +6,7 @@ import {
 } from 'react-router-dom';
 
 import 'aos/dist/aos.css';
-import './css/style.css';
+import './css/style.scss';
 
 import AOS from 'aos';
 

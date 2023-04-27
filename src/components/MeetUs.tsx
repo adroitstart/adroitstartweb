@@ -1,5 +1,6 @@
 import { FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa';
-import chris from '../images/chris.jpg'
+import { decodeEmail } from '../utils';
+const chris = '/images/chris.jpg'
 
 const MeetUs = () => {
   const members = [
@@ -34,12 +35,6 @@ const MeetUs = () => {
       email: 'bWFjay5yeWFubUBnbWFpbC5jb20='
     }
   ];
-
-  function decodeEmail(encodedEmail) {
-    const decoder = new TextDecoder("utf-8");
-    const decodedEmail = decoder.decode(Uint8Array.from(atob(encodedEmail), c => c.charCodeAt(0)));
-    return decodedEmail;
-  }
 
   return (
     <section className="bg-gray-100 py-16" id="meet-us">

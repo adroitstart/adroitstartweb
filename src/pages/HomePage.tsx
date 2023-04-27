@@ -1,13 +1,10 @@
-import React from 'react';
-import Header from '../partials/Header'
-import Hero from '../partials/Hero'
-import AboutUs from '../partials/AboutUs'
-import MeetUs from '../partials/MeetUs'
-import Footer from '../partials/Footer'
-function HomePage() {
+import Hero from '../components/Hero';
+import AboutUs from '../components/AboutUs';
+import MeetUs from '../components/MeetUs';
+
+const HomePage = () => {
   return (
     <div>
-        <Header/>
         <Hero/>
         <div>
           <AboutUs/>
@@ -18,7 +15,6 @@ function HomePage() {
           <MeetUs/>
         </div>
         {/* Newsletter / Get involved info */}
-        <Footer/>
     </div>
   );
 }

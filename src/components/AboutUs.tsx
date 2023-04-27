@@ -1,7 +1,3 @@
-import React from "react";
-// import ImageBackground from "./ImageBackground";
-// import robot from '../images/robot.jpg'
-
 const AboutUs = () => {
   return (
     <section className="bg-gray-100" id="about-us">
@@ -24,7 +20,7 @@ const AboutUs = () => {
                 Our mission is to provide equitable access to STEM education for all students. We believe that by inspiring and connecting students from different backgrounds, we can create a more diverse and inclusive STEM workforce that reflects the communities we serve. We work with schools, community organizations, and industry partners to provide hands-on learning experiences, mentorship, and resources to students from underrepresented backgrounds.
               </p>
             </div>
-          </div>
+          </div>  
         </div>
       {/* </ImageBackground> */}
     </section>

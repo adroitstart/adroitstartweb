@@ -1,14 +1,11 @@
-import React from 'react';
+const Robot = '/images/robot.jpg'
 
-import PageIllustration from '../partials/PageIllustration';
-import Robot from '../images/robot.jpg'
-
-function UnderConstruction() {
+const UnderConstruction = () => {
   return (
     <div>
     {/*  Page illustration */}
     <div className="relative max-w-6xl mx-auto h-0 pointer-events-none" aria-hidden="true">
-    <PageIllustration />
+    {/*    <PageIllustration />  this component doesnt exist*/ }
     </div>
     <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
     {/* Illustration behind hero content */}

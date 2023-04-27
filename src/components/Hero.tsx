@@ -1,13 +1,10 @@
 import { useState, useEffect } from 'react';
-// import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
-import slide4 from '../images/slide-4.jpg'
-import slide7 from '../images/slide-7.jpg'
-import slide1 from '../images/slide-1.jpg'
+import { decodeEmail } from '../utils';
 
 const images = [
-  slide1,
-  slide4,
-  slide7,
+  '/images/slide-4.jpg',
+  '/images/slide-7.jpg',
+  '/images/slide-1.jpg',
 ];
 
 const Hero = () => {
@@ -15,15 +12,7 @@ const Hero = () => {
   const [isLoaded, setIsLoaded] = useState(false);
 
   const benEmail = "YmVubmFkb2xza3lAYWRyb2l0c3RhcnQub3Jn";
-
-  function decodeEmail(encodedEmail) {
-    const decoder = new TextDecoder("utf-8");
-    const decodedEmail = decoder.decode(
-      Uint8Array.from(atob(encodedEmail), c => c.charCodeAt(0))
-    );
-    return decodedEmail;
-  }
-
+  
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImageIndex(index => (index + 1) % images.length);

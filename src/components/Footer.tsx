@@ -1,7 +1,7 @@
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
-import Logo from '../images/Favicon_v2.png'
+const Logo = '/images/Favicon_v2.png'
 
-function Footer() {
+const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (

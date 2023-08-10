@@ -1,6 +1,8 @@
 import { FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa';
 import { decodeEmail } from '../utils';
 const chris = '/images/chris.jpg'
+const ryan = '/images/ryan.jpg'
+const ben = '/images/ben.jpg'
 
 const MeetUs = () => {
   const members = [
@@ -9,7 +11,7 @@ const MeetUs = () => {
       title: 'President',
       bio:
         '',
-      imgSrc: "https://media.licdn.com/dms/image/C4E03AQEVWbG3LTAgjw/profile-displayphoto-shrink_800_800/0/1642542072757?e=1684972800&v=beta&t=NlhkhMF66iZCpwUklIVECqHaf2UXKXBOubP6S16VoaU",
+      imgSrc: ben,
       linkedin: 'https://www.linkedin.com/in/benjaminnadolsky/',
       twitter: 'https://twitter.com/Bennadolsky',
       email: 'YmVubmFkb2xza3lAYWRyb2l0c3RhcnQub3Jn'
@@ -29,7 +31,7 @@ const MeetUs = () => {
       title: 'Vice President',
       bio:
         '',
-      imgSrc: "https://media.licdn.com/dms/image/D4E03AQGbLQMQK9cT_Q/profile-displayphoto-shrink_800_800/0/1665629165494?e=1684972800&v=beta&t=zl61MXoEMakv88TBO1HD-VRQNfcmvlFq4iG988cNtt4",
+      imgSrc: ryan,
       linkedin: 'https://www.linkedin.com/in/ryan-mack/',
       twitter: 'https://twitter.com/kamoras95',
       email: 'bWFjay5yeWFubUBnbWFpbC5jb20='

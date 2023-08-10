@@ -11,7 +11,7 @@ on:
 
 jobs:
   build_pr:
-    if: github.event_name == 'pull_request' && github.event.action != 'closed'
+    if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
     name: Build PR Job
     steps:

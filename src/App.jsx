@@ -14,7 +14,6 @@ import AOS from 'aos';
 // import UnderConstruction from './pages/UnderConstruction';
 // import LandingPage from './pages/LandingPage';
 import HomePage from './pages/HomePage';
-import DonatePage from './pages/DonatePage';
 
 function App() {
 
@@ -39,7 +38,6 @@ function App() {
     <>
       <Routes>
         <Route exact path="/" element={<HomePage />} />
-        <Route exact path="/donate" element={<DonatePage />} />
       </Routes>
     </>
   );

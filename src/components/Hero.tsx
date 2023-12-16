@@ -31,7 +31,7 @@ const Hero = () => {
       className="relative h-screen flex items-center justify-center overflow-hidden"
     >
       <div
-        className={`absolute inset-0 bg-black opacity-80 transition-opacity duration-1000 ease-in-out ${
+        className={`mt-24 absolute inset-0 bg-black opacity-80 transition-opacity duration-1000 ease-in-out ${
           isLoaded ? 'opacity-0' : ''
         }`}
       ></div>

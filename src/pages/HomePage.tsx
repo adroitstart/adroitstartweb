@@ -6,14 +6,10 @@ const HomePage = () => {
   return (
     <div>
         <Hero/>
-        <div>
-          <AboutUs/>
-        </div>
+        <AboutUs/>
         {/* What is FIRST? */}
         {/* Sections for robotics */}
-        <div>
-          <MeetUs/>
-        </div>
+        <MeetUs/>
         {/* Newsletter / Get involved info */}
     </div>
   );

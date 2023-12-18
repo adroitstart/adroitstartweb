@@ -1,6 +1,6 @@
 const AboutUs = () => {
   return (
-    <section className="bg-gray-100" id="about-us">
+    <section className="bg-gray-100" id="about-us" style={{ paddingTop: "12vh", marginTop: "-12vh" }}>
       {/* <ImageBackground backgroundImage={robot} className="w-screen"> */}
         <div className="container mx-auto px-4 py-16">
           <div className="flex flex-wrap -mx-4">

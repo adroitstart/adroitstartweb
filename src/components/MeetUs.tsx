@@ -39,7 +39,7 @@ const MeetUs = () => {
   ];
 
   return (
-    <section className="bg-gray-100 py-16" id="meet-us">
+    <section className="bg-gray-100 py-16" id="meet-us" style={{ paddingTop: "12vh", marginTop: "-12vh" }}>
       <div className="container px-4 mx-auto items-center justify-center">
         <h2 className="text-3xl font-bold text-center mb-8 text-adroitBlue">Meet Us</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

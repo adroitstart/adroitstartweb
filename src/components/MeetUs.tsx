@@ -43,9 +43,9 @@ const MeetUs = () => {
       <div className="container px-4 mx-auto items-center justify-center ">
         <div className="flex justify-center items-center">
           <div
-            className="inline-block m-auto bg-white p-8 py-8 rounded-lg shadow-lg text-center"
+            className="inline-block border-2 border-adroitBlue m-auto bg-white p-8 py-8 rounded-lg shadow-lg text-center"
           >
-            <h2 className="text-3xl font-bold text-center m-0 text-adroitBlue">Meet Us</h2>
+            <h2 className="text-3xl font-bold text-center m-0 text-adroitOrange">Meet Us</h2>
           </div>
         </div>
 
@@ -56,7 +56,7 @@ const MeetUs = () => {
           {members.map((member, index) => (
             <div
               key={index}
-              className="bg-white p-8 rounded-lg shadow-lg text-center"
+              className="bg-white border-2 border-adroitBlue p-8 rounded-lg shadow-lg text-center"
             >
               <img
                 src={member.imgSrc}

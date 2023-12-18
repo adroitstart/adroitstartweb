@@ -5,7 +5,7 @@ const AboutUs = () => {
         <div className="container mx-auto px-4 py-16">
           <div className="flex flex-wrap -mx-4">
             <div className="w-full md:w-1/2 px-4">
-              <h2 className="text-3xl font-semibold mb-6 text-gray-400">
+              <h2 className="text-3xl font-semibold mb-6 text-adroitBlue">
                 Who We Are
               </h2>
               <p className="text-gray-600 leading-relaxed">
@@ -13,7 +13,7 @@ const AboutUs = () => {
               </p>
             </div>
             <div className="w-full md:w-1/2 px-4">
-              <h2 className="text-3xl font-semibold mb-6 text-gray-400">
+              <h2 className="text-3xl font-semibold mb-6 text-adroitOrange">
                 Our Mission
               </h2>
               <p className="text-gray-600 leading-relaxed">

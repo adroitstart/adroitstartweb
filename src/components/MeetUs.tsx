@@ -40,8 +40,8 @@ const MeetUs = () => {
 
   return (
     <section className="bg-gray-100 py-16" id="meet-us">
-      <div className="container px-4 mx-auto items-center">
-        <h2 className="text-3xl font-bold text-center mb-8 text-gray-400">Meet Us</h2>
+      <div className="container px-4 mx-auto items-center justify-center">
+        <h2 className="text-3xl font-bold text-center mb-8 text-adroitBlue">Meet Us</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {members.map((member, index) => (
             <div
@@ -53,8 +53,8 @@ const MeetUs = () => {
                 alt={member.name}
                 className="w-56 h-56 object-cover rounded-full mx-auto mb-4"
               />
-              <h3 className="text-xl text-gray-600 font-semibold mb-2">{member.name}</h3>
-              <p className="text-gray-600 text-sm mb-4">{member.title}</p>
+              <h3 className="text-xl text-adroitBlue font-semibold mb-2">{member.name}</h3>
+              <p className="text-adroitOrange text-sm mb-4">{member.title}</p>
               <p className="text-gray-700 text-base mb-6">{member.bio}</p>
               <div className="flex justify-center space-x-4">
                 {member.linkedin && (
@@ -62,7 +62,7 @@ const MeetUs = () => {
                     href={member.linkedin}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-600 hover:text-adroitOrange"
+                    className="text-adroitBlue hover:text-adroitOrange"
                   >
                     <FaLinkedin size={24} />
                   </a>
@@ -72,7 +72,7 @@ const MeetUs = () => {
                     href={member.twitter}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-600 hover:text-adroitOrange"
+                    className="text-adroitBlue hover:text-adroitOrange"
                   >
                     <FaTwitter size={24} />
                   </a>
@@ -82,7 +82,7 @@ const MeetUs = () => {
                     href={`mailto:${decodeEmail(member.email)}`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-600 hover:text-adroitOrange"
+                    className="text-adroitBlue hover:text-adroitOrange"
                   >
                     <FaEnvelope size={24} />
                   </a>

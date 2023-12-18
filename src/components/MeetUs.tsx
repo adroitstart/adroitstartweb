@@ -39,9 +39,19 @@ const MeetUs = () => {
   ];
 
   return (
-    <section className="bg-gray-100 py-16" id="meet-us" style={{ paddingTop: "12vh", marginTop: "-12vh" }}>
-      <div className="container px-4 mx-auto items-center justify-center">
-        <h2 className="text-3xl font-bold text-center mb-8 text-adroitBlue">Meet Us</h2>
+    <section className="py-16" id="meet-us" style={{ paddingTop: "18vh", marginTop: "-18vh" }}>
+      <div className="container px-4 mx-auto items-center justify-center ">
+        <div className="flex justify-center items-center">
+          <div
+            className="inline-block m-auto bg-white p-8 py-8 rounded-lg shadow-lg text-center"
+          >
+            <h2 className="text-3xl font-bold text-center m-0 text-adroitBlue">Meet Us</h2>
+          </div>
+        </div>
+
+        {/* Vertical padding between sections */}
+        <div className="h-8"></div>
+        
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {members.map((member, index) => (
             <div

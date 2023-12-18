@@ -5,12 +5,14 @@ import Donate from '../components/Donate';
 
 const HomePage = () => {
   return (
-    <div>
+    <div className="">
         <Hero/>
-        <AboutUs/>
-        {/* What is FIRST? */}
-        {/* Sections for robotics */}
-        <MeetUs/>
+        <section className="bg-[url('/images/graph-paper.png')] bg-cover bg-center">
+          <AboutUs/>
+          {/* What is FIRST? */}
+          {/* Sections for robotics */}
+          <MeetUs/>
+        </section>
         {/* Newsletter / Get involved info */}
         <Donate/>
     </div>

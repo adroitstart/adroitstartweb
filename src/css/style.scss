@@ -18,3 +18,50 @@
     display: none;
 }
 
+@layer components {
+    .gear-shape {
+        width: 200px;
+        height: 200px;
+        position: relative;
+        background: transparent;
+        border-radius: 50%;
+        border: 10px solid #000;
+        border-right-color: transparent;
+        transform: rotate(45deg);
+        animation: rotateGear 3s linear infinite;
+    }
+
+    .gear-shape::before,
+    .gear-shape::after {
+        content: '';
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        background: #000;
+        border-radius: 50%;
+        border: 10px solid transparent;
+    }
+
+    .gear-shape::before {
+        top: -10px;
+        left: -10px;
+        border-top-color: #000;
+        border-left-color: #000;
+        transform: rotate(60deg);
+    }
+
+    .gear-shape::after {
+        top: -10px;
+        left: -10px;
+        border-top-color: #000;
+        border-right-color: #000;
+        transform: rotate(30deg);
+    }
+
+    @keyframes rotateGear {
+        100% {
+        transform: rotate(405deg);
+        }
+    }
+}
+  

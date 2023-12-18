@@ -14,7 +14,6 @@ const HomePage = () => {
           <MeetUs/>
         </section>
         {/* Newsletter / Get involved info */}
-        <Donate/>
     </div>
   );
 }

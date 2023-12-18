@@ -10,7 +10,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex items-center py-2 md:justify-start md:space-x-10">
           <div className="lg:w-0 lg:flex-1">
-            <a href="#top">
+            <a href="/#top">
               {/* <h1 className="text-4xl font-bold text-gray-800">ADROIT</h1> */}
               <img src={Logo} alt="ADROIT Logo" className="w-3xl mr-2 scale-75" />
             </a>
@@ -41,19 +41,19 @@ const Header = () => {
           </div>
           <nav className="hidden md:flex space-x-10">
             <a
-              href="#about-us"
+              href="/#about-us"
               className="text-xl font-medium text-gray-500 hover:text-gray-900"
             >
               About Us
             </a>
             <a
-              href="#programs"
+              href="/#programs"
               className="text-xl font-medium text-gray-500 hover:text-gray-900"
             >
               Programs
             </a>
             <a
-              href="#meet-us"
+              href="/#meet-us"
               className="text-xl font-medium text-gray-500 hover:text-gray-900"
             >
               Meet Us
@@ -67,7 +67,7 @@ const Header = () => {
           </nav>
           <div className="hidden md:flex items-center md:flex-1 lg:w-0">
             <a
-              href="#donate"
+              href="/donate"
               className="ml-150 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-full shadow-sm text-xl font-medium text-white bg-adroitBlue hover:bg-adroitOrange"
             >
               Donate

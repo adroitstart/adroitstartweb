@@ -20,7 +20,7 @@ const Programs = () => {
                             FRC Team 7525 (The Pioneers) 
                         </h2>
                     </div>      
-                    <div className="p-2">
+                    <div className="p-5">
                         <p className="p-4 text-gray-600 text-xl leading-relaxed">
                             For 8th through 12th grade, we offer students the opportunity to participate on Team 7525, the Pioneers, in the <i>FIRST</i> Robotics Competition. Through the Pioneers, students will refine their capabilities in our six core focus areas with direct mentorship from industry experts and professionals, building their networks and helping prepare them for their post-secondary life. They will be put to the ultimate test, designing, building, and coding an industrial-grade robot in a unique set of challenges each year. Additionally, students will have to deal with real world challenges, such as budgetary constraints, time limitations, marketing challenges, and other various problems throughout their season journey.
                         </p>
@@ -54,7 +54,7 @@ const Programs = () => {
                 <div className="border-2 border-adroitBlue flex flex-col rounded-lg bg-white">
                     <div className="p-5 font-sans font-bold">
                         <h2 className="text-3xl p-4 text-adroitOrange">
-                            <i>FIRST</i> Lego League Team
+                          FLL Team 29458 (Aventura Abejas)
                         </h2>
                     </div>      
                     <div className="p-5">

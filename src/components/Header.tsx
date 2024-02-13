@@ -82,6 +82,13 @@ const Header = () => {
               Get Involved
             </a>
             <a
+              href="files/Impact_Report_ADROIT.pdf"
+              className="text-xl font-medium text-gray-500 hover:text-gray-900"
+              target="_blank"
+            >
+              Impact Report
+            </a>
+            <a
               href="/donate"
               className={(navigatorOnMobileOpen == true ? 'bg-adroitOrange' : 'bg-adroitBlue')  +  " ml-150 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-full shadow-sm text-xl font-medium text-white hover:bg-adroitOrange"}
               onClick={closeMenu}

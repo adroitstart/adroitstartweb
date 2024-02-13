@@ -4,6 +4,7 @@ const images = [
   '/images/slide-4.jpg',
   '/images/slide-7.jpg',
   '/images/slide-1.jpg',
+  '/images/lego.jpeg'
 ];
 
 const Hero = ({ children }: any ) => {

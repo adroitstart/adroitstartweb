@@ -62,7 +62,7 @@ const Header = () => {
               About Us
             </a>
             <a
-              href="/#programs"
+              href="/programs"
               className="text-xl font-medium text-gray-500 hover:text-gray-900"
               onClick={closeMenu}
             >

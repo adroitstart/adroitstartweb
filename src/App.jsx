@@ -15,6 +15,7 @@ import AOS from 'aos';
 // import LandingPage from './pages/LandingPage';
 import HomePage from './pages/HomePage';
 import DonatePage from './pages/DonatePage';
+import Programs from './pages/Programs';
 
 function App() {
 
@@ -40,6 +41,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<HomePage />} />
         <Route exact path="/donate" element={<DonatePage />} />
+        <Route exact path="/programs" element={<Programs />} />
       </Routes>
     </>
   );

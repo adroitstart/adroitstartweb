@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { decodeEmail } from "../utils";
 
-const  Logo = "images/Adroit_Logo_Blue-smaller.png"
+const Logo = "images/Adroit_Logo_Blue-smaller.png"
 
 const Header = () => {
   const [navigatorOnMobileOpen, setNavigatorOnMobileOpen] = useState(false);

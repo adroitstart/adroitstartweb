@@ -43,7 +43,7 @@ const MeetUs = () => {
       email: 'am9zaHBldGVyc29uQGFkcm9pdHN0YXJ0Lm9yZw=='
     },
     {
-      name: 'Bryce Henson',
+      name: 'Bryce Hanson',
       title: 'Director',
       imgSrc: bryce,
       linkedin: 'https://www.linkedin.com/in/brycerhanson/',

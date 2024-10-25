@@ -3,6 +3,8 @@ import { decodeEmail } from '../utils';
 const chris = '/images/chris.jpg'
 const ryan = '/images/ryan.jpg'
 const ben = '/images/ben.jpg'
+const bryce = '/images/bryce.png'
+const josh = '/images/josh.png'
 
 const MeetUs = () => {
   const members = [
@@ -13,7 +15,6 @@ const MeetUs = () => {
         '',
       imgSrc: ben,
       linkedin: 'https://www.linkedin.com/in/benjaminnadolsky/',
-      twitter: 'https://twitter.com/Bennadolsky',
       email: 'YmVubmFkb2xza3lAYWRyb2l0c3RhcnQub3Jn'
     },
     {
@@ -23,7 +24,6 @@ const MeetUs = () => {
         '',
       imgSrc: chris,
       linkedin: 'https://www.linkedin.com/in/chris-masuo-765330a2/',
-      twitter: '#',
       email: 'bWFzdW9jakBnbWFpbC5jb20='
     },
     {
@@ -33,8 +33,21 @@ const MeetUs = () => {
         '',
       imgSrc: ryan,
       linkedin: 'https://www.linkedin.com/in/ryan-mack/',
-      twitter: 'https://twitter.com/kamoras95',
       email: 'bWFjay5yeWFubUBnbWFpbC5jb20='
+    },
+    {
+      name: 'Josh Peterson',
+      title: 'Director',
+      imgSrc: josh,
+      linkedin: 'https://www.linkedin.com/in/josh-c-peterson/',
+      email: 'am9zaHBldGVyc29uQGFkcm9pdHN0YXJ0Lm9yZw=='
+    },
+    {
+      name: 'Bryce Henson',
+      title: 'Director',
+      imgSrc: bryce,
+      linkedin: 'https://www.linkedin.com/in/brycerhanson/',
+      email: 'YnJ5Y2VoYW5zb25AYWRyb2l0c3RhcnQub3Jn'
     }
   ];
 
@@ -75,16 +88,6 @@ const MeetUs = () => {
                     className="text-adroitBlue hover:text-adroitOrange"
                   >
                     <FaLinkedin size={24} />
-                  </a>
-                )}
-                {member.twitter && (
-                  <a
-                    href={member.twitter}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-adroitBlue hover:text-adroitOrange"
-                  >
-                    <FaTwitter size={24} />
                   </a>
                 )}
                 {member.email && (

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Inter:wght@400;500;600;700;800;900&display=fallback');
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import './pallete.scss';
+
+/* Additional Tailwind directives: https://tailwindcss.com/docs/functions-and-directives/#responsive */
+@layer utilities {
+    .rtl {
+        direction: rtl;
+    }
+}
+
+/* See Alpine.js: https://github.com/alpinejs/alpine#x-cloak */
+[x-cloak=""] {
+    display: none;
+}
+
+@layer components {
+    .gear-shape {
+        width: 200px;
+        height: 200px;
+        position: relative;
+        background: transparent;
+        border-radius: 50%;
+        border: 10px solid #000;
+        border-right-color: transparent;
+        transform: rotate(45deg);
+        animation: rotateGear 3s linear infinite;
+    }
+
+    .gear-shape::before,
+    .gear-shape::after {
+        content: '';
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        background: #000;
+        border-radius: 50%;
+        border: 10px solid transparent;
+    }
+
+    .gear-shape::before {
+        top: -10px;
+        left: -10px;
+        border-top-color: #000;
+        border-left-color: #000;
+        transform: rotate(60deg);
+    }
+
+    .gear-shape::after {
+        top: -10px;
+        left: -10px;
+        border-top-color: #000;
+        border-right-color: #000;
+        transform: rotate(30deg);
+    }
+
+    @keyframes rotateGear {
+        100% {
+        transform: rotate(405deg);
+        }
+    }
+}
+
+
+.headerHeight {
+    height: $headerHeight !important;
+}
+
+.mobileNavigator {
+    position: absolute;
+    top: $headerHeight;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+
+    width: 100%;
+    background-color: $blue;  
+}
+.mobileNavigator a {
+    color: $white;
+}
+  

@@ -1,7 +1,6 @@
-import { FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa';
+import { FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import { decodeEmail } from '../utils';
 const chris = '/images/chris.jpg'
-const ryan = '/images/ryan.jpg'
 const ben = '/images/ben.jpg'
 const bryce = '/images/bryce.png'
 const josh = '/images/josh.png'
@@ -10,7 +9,7 @@ const MeetUs = () => {
   const members = [
     {
       name: 'Benjamin Nadolsky',
-      title: 'President',
+      title: 'Vice President',
       bio:
         '',
       imgSrc: ben,
@@ -19,7 +18,7 @@ const MeetUs = () => {
     },
     {
       name: 'Christopher Masuo',
-      title: 'Secretary',
+      title: 'Treasurer',
       bio:
         '',
       imgSrc: chris,
@@ -27,24 +26,15 @@ const MeetUs = () => {
       email: 'bWFzdW9jakBnbWFpbC5jb20='
     },
     {
-      name: 'Ryan Mack',
-      title: 'Vice President',
-      bio:
-        '',
-      imgSrc: ryan,
-      linkedin: 'https://www.linkedin.com/in/ryan-mack/',
-      email: 'bWFjay5yeWFubUBnbWFpbC5jb20='
-    },
-    {
       name: 'Josh Peterson',
-      title: 'Director',
+      title: 'President',
       imgSrc: josh,
       linkedin: 'https://www.linkedin.com/in/josh-c-peterson/',
       email: 'am9zaHBldGVyc29uQGFkcm9pdHN0YXJ0Lm9yZw=='
     },
     {
       name: 'Bryce Hanson',
-      title: 'Director',
+      title: 'Secretary',
       imgSrc: bryce,
       linkedin: 'https://www.linkedin.com/in/brycerhanson/',
       email: 'YnJ5Y2VoYW5zb25AYWRyb2l0c3RhcnQub3Jn'

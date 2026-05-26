@@ -8,6 +8,13 @@ const josh = '/images/josh.png'
 const MeetUs = () => {
   const members = [
     {
+      name: 'Josh Peterson',
+      title: 'President',
+      imgSrc: josh,
+      linkedin: 'https://www.linkedin.com/in/josh-c-peterson/',
+      email: 'am9zaHBldGVyc29uQGFkcm9pdHN0YXJ0Lm9yZw=='
+    },
+    {
       name: 'Benjamin Nadolsky',
       title: 'Vice President',
       bio:
@@ -17,6 +24,13 @@ const MeetUs = () => {
       email: 'YmVubmFkb2xza3lAYWRyb2l0c3RhcnQub3Jn'
     },
     {
+      name: 'Bryce Hanson',
+      title: 'Secretary',
+      imgSrc: bryce,
+      linkedin: 'https://www.linkedin.com/in/brycerhanson/',
+      email: 'YnJ5Y2VoYW5zb25AYWRyb2l0c3RhcnQub3Jn'
+    },
+    {
       name: 'Christopher Masuo',
       title: 'Treasurer',
       bio:
@@ -24,20 +38,6 @@ const MeetUs = () => {
       imgSrc: chris,
       linkedin: 'https://www.linkedin.com/in/chris-masuo-765330a2/',
       email: 'bWFzdW9jakBnbWFpbC5jb20='
-    },
-    {
-      name: 'Josh Peterson',
-      title: 'President',
-      imgSrc: josh,
-      linkedin: 'https://www.linkedin.com/in/josh-c-peterson/',
-      email: 'am9zaHBldGVyc29uQGFkcm9pdHN0YXJ0Lm9yZw=='
-    },
-    {
-      name: 'Bryce Hanson',
-      title: 'Secretary',
-      imgSrc: bryce,
-      linkedin: 'https://www.linkedin.com/in/brycerhanson/',
-      email: 'YnJ5Y2VoYW5zb25AYWRyb2l0c3RhcnQub3Jn'
     }
   ];
 

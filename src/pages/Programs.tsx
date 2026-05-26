@@ -46,9 +46,9 @@ const Programs = () => {
 
               {/* FIRST Lego Robotics League */}
               <div className="py-16 grid grid-cols-1 md:grid-cols-2 gap-12">
-                <div className="border-2 border-adroitBlue flex flex-col rounded-lg shadow-lg ">
+                <div className="border-2 border-adroitBlue flex items-center justify-center rounded-lg shadow-lg bg-white p-8 md:p-12">
                   {/* <div className="m-5 h-full bg-[url('/images/fll.png')] bg-contain bg-no-repeat bg-center"> */}
-                  <img className="m-5 h-full object-scale-down max-h-full drop-shadow-md rounded-md m-auto" src="images/fll.png" alt="Photo of the Lego Robotics Team at a competition in Cookville, TN" />
+                  <img className="w-full max-w-lg object-contain drop-shadow-md rounded-md" src="images/fll.png" alt="FIRST Lego League logo" />
                   {/* </div> */}
                 </div>
                 <div className="border-2 border-adroitBlue flex flex-col rounded-lg bg-white">

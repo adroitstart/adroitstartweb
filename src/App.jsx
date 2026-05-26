@@ -16,6 +16,7 @@ import AOS from 'aos';
 import HomePage from './pages/HomePage';
 import DonatePage from './pages/DonatePage';
 import Programs from './pages/Programs';
+import TitleVINotice from './pages/TitleVINotice';
 
 function App() {
 
@@ -42,6 +43,7 @@ function App() {
         <Route exact path="/" element={<HomePage />} />
         <Route exact path="/donate" element={<DonatePage />} />
         <Route exact path="/programs" element={<Programs />} />
+        <Route exact path="/title-vi-notice" element={<TitleVINotice />} />
       </Routes>
     </>
   );
